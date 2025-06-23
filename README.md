@@ -30,17 +30,17 @@ Machine learning models are vulnerable to **data poisoning attacks** where adver
 ---
 
 ## Evaluation
--Metrics: Accuracy, Precision, Recall, F1-Score
--Detection of latent space anomalies
--Comparison across clean, poisoned, and defended models
--Visualizations: clustering, confidence plots, XAI interpretability
+- Metrics: Accuracy, Precision, Recall, F1-Score
+- Detection of latent space anomalies
+- Comparison across clean, poisoned, and defended models
+- Visualizations: clustering, confidence plots, XAI interpretability
 
 ---
 ## Explainability Tools
--Integrated with popular interpretability frameworks:
--SHAP
--LIME
--Attention Maps (via RAG)
+- Integrated with popular interpretability frameworks:
+- SHAP
+- LIME
+- Attention Maps (via RAG)
 
 Used to identify which parts of input trigger suspicion in the model.
 
