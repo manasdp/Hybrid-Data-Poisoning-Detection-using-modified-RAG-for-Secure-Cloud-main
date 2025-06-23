@@ -28,41 +28,11 @@ Machine learning models are vulnerable to **data poisoning attacks** where adver
 - Modular design for easy extension with new recipes or datasets
 
 ---
-## Project Structure
-├── data/ # Clean and poisoned datasets
-├── src/
-│ ├── retriever/ # Modified RAG retriever modules
-│ ├── evaluator/ # Explainability + detection logic
-│ ├── defenses/ # Traditional & hybrid defense implementations
-│ └── orchestrator.py # Main pipeline controller
-├── visualizations/ # Visual analysis tools
-├── examples/ # Usage demos, queries, configs
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
----
-
----
-
-## Getting Started
-
-## Installation
-
-```bash
-git clone https://github.com/manasdp/Hybrid-Data-Poisoning-Detection-using-modified-RAG-for-Secure-Cloud-main.git
-cd Hybrid-Data-Poisoning-Detection-using-modified-RAG-for-Secure-Cloud-main
-pip install -r requirements.txt
-python src/orchestrator.py --config config/default.yaml
-
----
 
 ## Evaluation
 Metrics: Accuracy, Precision, Recall, F1-Score
-
 Detection of latent space anomalies
-
 Comparison across clean, poisoned, and defended models
-
 Visualizations: clustering, confidence plots, XAI interpretability
 
 ---
